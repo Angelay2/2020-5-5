@@ -65,10 +65,9 @@ lvalues 和 rvalues 角色的相互转换
 1、 根据表达式的上下文情况，lvalues 在需要 rvalues 的地方会自动转换为 rvalues。例如:
 
 	int n;
-
 	int m;
-
 	m = n+2; // 这个表达式里 n 是 rvalues
+
 2、 rvalues 永远不能转换为 lvalues
 
 */
